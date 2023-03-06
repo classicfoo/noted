@@ -6,7 +6,7 @@
 Users can add notes with a text input field and a save button
 Notes are saved to local storage so they persist between sessions
 Users can view all saved notes in a list
-Each note in the list shows the note text and a timestamp of when it was created
+Each note in the list shows the note text and a timestamp of when it was created is hidden
 Users can edit existing notes by clicking on the note in the list, which opens an edit modal
 The edit modal has a text input field and a save button
 Users can delete existing notes by clicking on a delete button that appears when they hover over the note in the list
