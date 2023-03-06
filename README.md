@@ -1,5 +1,7 @@
 # noted
 
+[screenshot](screenshot.jpg)
+
 # Features 
 Users can add notes with a text input field and a save button
 Notes are saved to local storage so they persist between sessions
