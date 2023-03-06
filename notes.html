@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noted</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>Noted</h1>
+    </header>
+
+    <section id="searchSection">
+      <input type="text" id="searchInput" placeholder="Search notes...">
+      <button id="addNoteBtn">Add</button>
+
+    </section>
+
+    <div id="noteList"></div>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <textarea id="noteInput" placeholder="Write your note here..."></textarea>
+        <button id="saveNoteBtn">Save</button>
+      </div>
+    </div>
+
+    <div id="editModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <textarea id="editNoteInput"></textarea>
+        <button id="updateNoteBtn">Update</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
