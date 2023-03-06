@@ -1,6 +1,6 @@
 # noted
 
-[screenshot](screenshot.jpg)
+![screenshot](screenshot.jpg)
 
 # Features 
 Users can add notes with a text input field and a save button
