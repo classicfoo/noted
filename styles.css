@@ -81,6 +81,8 @@ button:hover {
 .note p {
   margin: 0;
   font-size: 16px;
+  padding-bottom: 3px;
+
 }
 
 .note .timestamp {
@@ -157,4 +159,11 @@ textarea {
   background-color: #1DA1F2;
   color:white;
   margin-left:10px;
+}
+
+@media (max-width: 600px) {
+  #modal textarea,
+  #editModal textarea {
+    font-size: 16px;
+  }
 }

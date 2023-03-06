@@ -75,7 +75,9 @@ function filterNotes() {
 function displayNotes(notesToShow = notes) {
   noteList.innerHTML = '';
   if (notesToShow.length > 0) {
-    notesToShow.forEach(note => {
+    // Sort notes by timestamp in descending order
+    const sortedNotes = notesToShow.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+    sortedNotes.forEach(note => {
       const noteDiv = document.createElement('div');
       noteDiv.classList.add('note');
       noteDiv.innerHTML = `
